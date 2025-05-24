@@ -1,0 +1,4 @@
+Weights/lstm_best_model.pth filter=lfs diff=lfs merge=lfs -text
+Weights/lstm_last_model.pth filter=lfs diff=lfs merge=lfs -text
+Weights/cnn_best_model.pth filter=lfs diff=lfs merge=lfs -text
+Weights/cnn_last_model.pth filter=lfs diff=lfs merge=lfs -text

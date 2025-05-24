@@ -1,0 +1,14 @@
+# Web UI
+streamlit==1.45.1
+
+# Core numerics & data
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+
+# Plotting
+plotly==6.1.1
+
+# Machine learning
+torch==2.7.0
+scikit-learn==1.6.1

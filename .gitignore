@@ -1,0 +1,10 @@
+=2.0.0
+myenv/
+ode_inverse_output_lstm/best_model.pth
+ode_inverse_output_lstm/last_model.pth
+ode_inverse_output_v2/best_model.pth
+ode_inverse_output_v2/best_model2.pth
+ode_inverse_output_v2/last_model.pth
+ode_inverse_output_v2/last_model2.pth
+simulation_results.csv
+check.py
