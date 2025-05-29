@@ -1,1 +1,1974 @@
+nohup: ignoring input
+Using device: cuda
+Loading and preparing dataset...
+Loading data from simulation_results.csv...
+Processing and grouping data by run_id...
+Found 18432 unique runs.
+Trajectory shape: (Runs, Timesteps, Variables) = (18432, 1000, 3)
+Warning: No parameter scaling applied during this ODESimulationDataset initialization.
+Normalizing trajectories (standardization per run)...
+Final trajectory tensor shape for model: (18432, 3, 1000)
+Dataset split: Total runs=18432, Training runs=14745, Validation runs=3687
+Parameter scaler fitted on training data.
+Initializing model type: lstm...
+Model selected: LSTM
+Total trainable parameters: 21,548,045
+Starting training from epoch 1...
 
+--- Epoch 1/150 ---
+Training Loss (Scaled MSE): 0.249944
+Validation Loss (Scaled MSE): 0.194404
+Validation MAE (Unscaled): 0.158276
+Epoch duration: 107.03 seconds
+Validation loss improved by inf (inf --> 0.194404). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 2/150 ---
+Training Loss (Scaled MSE): 0.190096
+Validation Loss (Scaled MSE): 0.162308
+Validation MAE (Unscaled): 0.159270
+Epoch duration: 111.11 seconds
+Validation loss improved by 0.032096 (0.194404 --> 0.162308). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 3/150 ---
+Training Loss (Scaled MSE): 0.166106
+Validation Loss (Scaled MSE): 0.147759
+Validation MAE (Unscaled): 0.160425
+Epoch duration: 90.50 seconds
+Validation loss improved by 0.014549 (0.162308 --> 0.147759). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 4/150 ---
+Training Loss (Scaled MSE): 0.154045
+Validation Loss (Scaled MSE): 0.140004
+Validation MAE (Unscaled): 0.159257
+Epoch duration: 100.02 seconds
+Validation loss improved by 0.007755 (0.147759 --> 0.140004). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 5/150 ---
+Training Loss (Scaled MSE): 0.144759
+Validation Loss (Scaled MSE): 0.130371
+Validation MAE (Unscaled): 0.161201
+Epoch duration: 111.35 seconds
+Validation loss improved by 0.009632 (0.140004 --> 0.130371). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 6/150 ---
+Training Loss (Scaled MSE): 0.137894
+Validation Loss (Scaled MSE): 0.124105
+Validation MAE (Unscaled): 0.161755
+Epoch duration: 111.46 seconds
+Validation loss improved by 0.006267 (0.130371 --> 0.124105). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 7/150 ---
+Training Loss (Scaled MSE): 0.132354
+Validation Loss (Scaled MSE): 0.117439
+Validation MAE (Unscaled): 0.160865
+Epoch duration: 111.67 seconds
+Validation loss improved by 0.006665 (0.124105 --> 0.117439). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 8/150 ---
+Training Loss (Scaled MSE): 0.127203
+Validation Loss (Scaled MSE): 0.113636
+Validation MAE (Unscaled): 0.160594
+Epoch duration: 111.53 seconds
+Validation loss improved by 0.003803 (0.117439 --> 0.113636). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 9/150 ---
+Training Loss (Scaled MSE): 0.122975
+Validation Loss (Scaled MSE): 0.111845
+Validation MAE (Unscaled): 0.159337
+Epoch duration: 105.92 seconds
+Validation loss improved by 0.001792 (0.113636 --> 0.111845). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 10/150 ---
+Training Loss (Scaled MSE): 0.120122
+Validation Loss (Scaled MSE): 0.115496
+Validation MAE (Unscaled): 0.160229
+Epoch duration: 84.36 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.111845
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 11/150 ---
+Training Loss (Scaled MSE): 0.117180
+Validation Loss (Scaled MSE): 0.103251
+Validation MAE (Unscaled): 0.161393
+Epoch duration: 111.95 seconds
+Validation loss improved by 0.008594 (0.111845 --> 0.103251). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 12/150 ---
+Training Loss (Scaled MSE): 0.113712
+Validation Loss (Scaled MSE): 0.102803
+Validation MAE (Unscaled): 0.163125
+Epoch duration: 112.07 seconds
+Validation loss improved by 0.000448 (0.103251 --> 0.102803). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 13/150 ---
+Training Loss (Scaled MSE): 0.112238
+Validation Loss (Scaled MSE): 0.101741
+Validation MAE (Unscaled): 0.161449
+Epoch duration: 112.05 seconds
+Validation loss improved by 0.001062 (0.102803 --> 0.101741). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 14/150 ---
+Training Loss (Scaled MSE): 0.109584
+Validation Loss (Scaled MSE): 0.098173
+Validation MAE (Unscaled): 0.161905
+Epoch duration: 111.46 seconds
+Validation loss improved by 0.003567 (0.101741 --> 0.098173). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 15/150 ---
+Training Loss (Scaled MSE): 0.107119
+Validation Loss (Scaled MSE): 0.095924
+Validation MAE (Unscaled): 0.160871
+Epoch duration: 111.84 seconds
+Validation loss improved by 0.002249 (0.098173 --> 0.095924). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 16/150 ---
+Training Loss (Scaled MSE): 0.105217
+Validation Loss (Scaled MSE): 0.094888
+Validation MAE (Unscaled): 0.161964
+Epoch duration: 90.19 seconds
+Validation loss improved by 0.001037 (0.095924 --> 0.094888). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 17/150 ---
+Training Loss (Scaled MSE): 0.103506
+Validation Loss (Scaled MSE): 0.093189
+Validation MAE (Unscaled): 0.161293
+Epoch duration: 99.45 seconds
+Validation loss improved by 0.001699 (0.094888 --> 0.093189). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 18/150 ---
+Training Loss (Scaled MSE): 0.102026
+Validation Loss (Scaled MSE): 0.096626
+Validation MAE (Unscaled): 0.161362
+Epoch duration: 112.17 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.093189
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 19/150 ---
+Training Loss (Scaled MSE): 0.101135
+Validation Loss (Scaled MSE): 0.089218
+Validation MAE (Unscaled): 0.163446
+Epoch duration: 111.84 seconds
+Validation loss improved by 0.003971 (0.093189 --> 0.089218). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 20/150 ---
+Training Loss (Scaled MSE): 0.098504
+Validation Loss (Scaled MSE): 0.092532
+Validation MAE (Unscaled): 0.160507
+Epoch duration: 111.95 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.089218
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 21/150 ---
+Training Loss (Scaled MSE): 0.098381
+Validation Loss (Scaled MSE): 0.089176
+Validation MAE (Unscaled): 0.162545
+Epoch duration: 111.90 seconds
+Validation loss improved by 0.000042 (0.089218 --> 0.089176). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 22/150 ---
+Training Loss (Scaled MSE): 0.097789
+Validation Loss (Scaled MSE): 0.096509
+Validation MAE (Unscaled): 0.160628
+Epoch duration: 107.53 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.089176
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 23/150 ---
+Training Loss (Scaled MSE): 0.097161
+Validation Loss (Scaled MSE): 0.087406
+Validation MAE (Unscaled): 0.161019
+Epoch duration: 82.20 seconds
+Validation loss improved by 0.001770 (0.089176 --> 0.087406). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 24/150 ---
+Training Loss (Scaled MSE): 0.095130
+Validation Loss (Scaled MSE): 0.085165
+Validation MAE (Unscaled): 0.161934
+Epoch duration: 111.76 seconds
+Validation loss improved by 0.002241 (0.087406 --> 0.085165). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 25/150 ---
+Training Loss (Scaled MSE): 0.095047
+Validation Loss (Scaled MSE): 0.092112
+Validation MAE (Unscaled): 0.160197
+Epoch duration: 111.72 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.085165
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 26/150 ---
+Training Loss (Scaled MSE): 0.094026
+Validation Loss (Scaled MSE): 0.085267
+Validation MAE (Unscaled): 0.162140
+Epoch duration: 111.58 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.085165
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 27/150 ---
+Training Loss (Scaled MSE): 0.092107
+Validation Loss (Scaled MSE): 0.083143
+Validation MAE (Unscaled): 0.161217
+Epoch duration: 111.98 seconds
+Validation loss improved by 0.002022 (0.085165 --> 0.083143). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 28/150 ---
+Training Loss (Scaled MSE): 0.091543
+Validation Loss (Scaled MSE): 0.083061
+Validation MAE (Unscaled): 0.161246
+Epoch duration: 111.41 seconds
+Validation loss improved by 0.000082 (0.083143 --> 0.083061). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 29/150 ---
+Training Loss (Scaled MSE): 0.089976
+Validation Loss (Scaled MSE): 0.082878
+Validation MAE (Unscaled): 0.159158
+Epoch duration: 93.03 seconds
+Validation loss improved by 0.000183 (0.083061 --> 0.082878). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 30/150 ---
+Training Loss (Scaled MSE): 0.090087
+Validation Loss (Scaled MSE): 0.083033
+Validation MAE (Unscaled): 0.161839
+Epoch duration: 95.75 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.082878
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 31/150 ---
+Training Loss (Scaled MSE): 0.088580
+Validation Loss (Scaled MSE): 0.080670
+Validation MAE (Unscaled): 0.159663
+Epoch duration: 111.77 seconds
+Validation loss improved by 0.002208 (0.082878 --> 0.080670). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 32/150 ---
+Training Loss (Scaled MSE): 0.089506
+Validation Loss (Scaled MSE): 0.080257
+Validation MAE (Unscaled): 0.160188
+Epoch duration: 111.77 seconds
+Validation loss improved by 0.000413 (0.080670 --> 0.080257). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 33/150 ---
+Training Loss (Scaled MSE): 0.087892
+Validation Loss (Scaled MSE): 0.079471
+Validation MAE (Unscaled): 0.159899
+Epoch duration: 111.94 seconds
+Validation loss improved by 0.000786 (0.080257 --> 0.079471). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 34/150 ---
+Training Loss (Scaled MSE): 0.086120
+Validation Loss (Scaled MSE): 0.078836
+Validation MAE (Unscaled): 0.160625
+Epoch duration: 112.10 seconds
+Validation loss improved by 0.000636 (0.079471 --> 0.078836). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 35/150 ---
+Training Loss (Scaled MSE): 0.085275
+Validation Loss (Scaled MSE): 0.078761
+Validation MAE (Unscaled): 0.159062
+Epoch duration: 109.84 seconds
+Validation loss improved by 0.000075 (0.078836 --> 0.078761). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 36/150 ---
+Training Loss (Scaled MSE): 0.084679
+Validation Loss (Scaled MSE): 0.076799
+Validation MAE (Unscaled): 0.160665
+Epoch duration: 81.98 seconds
+Validation loss improved by 0.001962 (0.078761 --> 0.076799). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 37/150 ---
+Training Loss (Scaled MSE): 0.082827
+Validation Loss (Scaled MSE): 0.074492
+Validation MAE (Unscaled): 0.161909
+Epoch duration: 110.99 seconds
+Validation loss improved by 0.002307 (0.076799 --> 0.074492). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 38/150 ---
+Training Loss (Scaled MSE): 0.082985
+Validation Loss (Scaled MSE): 0.074706
+Validation MAE (Unscaled): 0.161666
+Epoch duration: 111.81 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.074492
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 39/150 ---
+Training Loss (Scaled MSE): 0.081395
+Validation Loss (Scaled MSE): 0.079516
+Validation MAE (Unscaled): 0.162010
+Epoch duration: 111.93 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.074492
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 40/150 ---
+Training Loss (Scaled MSE): 0.081977
+Validation Loss (Scaled MSE): 0.072924
+Validation MAE (Unscaled): 0.161232
+Epoch duration: 111.96 seconds
+Validation loss improved by 0.001568 (0.074492 --> 0.072924). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 41/150 ---
+Training Loss (Scaled MSE): 0.081093
+Validation Loss (Scaled MSE): 0.078693
+Validation MAE (Unscaled): 0.161722
+Epoch duration: 111.70 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.072924
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 42/150 ---
+Training Loss (Scaled MSE): 0.080786
+Validation Loss (Scaled MSE): 0.074320
+Validation MAE (Unscaled): 0.161259
+Epoch duration: 97.38 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.072924
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 43/150 ---
+Training Loss (Scaled MSE): 0.079243
+Validation Loss (Scaled MSE): 0.074430
+Validation MAE (Unscaled): 0.160388
+Epoch duration: 90.89 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.072924
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 44/150 ---
+Training Loss (Scaled MSE): 0.078743
+Validation Loss (Scaled MSE): 0.072787
+Validation MAE (Unscaled): 0.159871
+Epoch duration: 111.97 seconds
+Validation loss improved by 0.000137 (0.072924 --> 0.072787). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 45/150 ---
+Training Loss (Scaled MSE): 0.077696
+Validation Loss (Scaled MSE): 0.071114
+Validation MAE (Unscaled): 0.162047
+Epoch duration: 112.34 seconds
+Validation loss improved by 0.001673 (0.072787 --> 0.071114). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 46/150 ---
+Training Loss (Scaled MSE): 0.077713
+Validation Loss (Scaled MSE): 0.070487
+Validation MAE (Unscaled): 0.161187
+Epoch duration: 111.79 seconds
+Validation loss improved by 0.000627 (0.071114 --> 0.070487). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 47/150 ---
+Training Loss (Scaled MSE): 0.076382
+Validation Loss (Scaled MSE): 0.071501
+Validation MAE (Unscaled): 0.160947
+Epoch duration: 111.64 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.070487
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 48/150 ---
+Training Loss (Scaled MSE): 0.076210
+Validation Loss (Scaled MSE): 0.073455
+Validation MAE (Unscaled): 0.162875
+Epoch duration: 111.71 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.070487
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 49/150 ---
+Training Loss (Scaled MSE): 0.075152
+Validation Loss (Scaled MSE): 0.069898
+Validation MAE (Unscaled): 0.162667
+Epoch duration: 85.03 seconds
+Validation loss improved by 0.000589 (0.070487 --> 0.069898). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 50/150 ---
+Training Loss (Scaled MSE): 0.074896
+Validation Loss (Scaled MSE): 0.068331
+Validation MAE (Unscaled): 0.162112
+Epoch duration: 104.76 seconds
+Validation loss improved by 0.001566 (0.069898 --> 0.068331). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 51/150 ---
+Training Loss (Scaled MSE): 0.073152
+Validation Loss (Scaled MSE): 0.066193
+Validation MAE (Unscaled): 0.162178
+Epoch duration: 111.78 seconds
+Validation loss improved by 0.002138 (0.068331 --> 0.066193). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 52/150 ---
+Training Loss (Scaled MSE): 0.074157
+Validation Loss (Scaled MSE): 0.067464
+Validation MAE (Unscaled): 0.162371
+Epoch duration: 111.95 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.066193
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 53/150 ---
+Training Loss (Scaled MSE): 0.074237
+Validation Loss (Scaled MSE): 0.068086
+Validation MAE (Unscaled): 0.161191
+Epoch duration: 111.96 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.066193
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 54/150 ---
+Training Loss (Scaled MSE): 0.073689
+Validation Loss (Scaled MSE): 0.068040
+Validation MAE (Unscaled): 0.161307
+Epoch duration: 111.79 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.066193
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 55/150 ---
+Training Loss (Scaled MSE): 0.072449
+Validation Loss (Scaled MSE): 0.067725
+Validation MAE (Unscaled): 0.161189
+Epoch duration: 102.67 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.066193
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 56/150 ---
+Training Loss (Scaled MSE): 0.073015
+Validation Loss (Scaled MSE): 0.066572
+Validation MAE (Unscaled): 0.161509
+Epoch duration: 83.87 seconds
+Validation loss did not improve for 5 epoch(s). Best was 0.066193
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 57/150 ---
+Training Loss (Scaled MSE): 0.073532
+Validation Loss (Scaled MSE): 0.072660
+Validation MAE (Unscaled): 0.160987
+Epoch duration: 111.84 seconds
+Validation loss did not improve for 6 epoch(s). Best was 0.066193
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 58/150 ---
+Training Loss (Scaled MSE): 0.071283
+Validation Loss (Scaled MSE): 0.066475
+Validation MAE (Unscaled): 0.163267
+Epoch duration: 111.34 seconds
+Validation loss did not improve for 7 epoch(s). Best was 0.066193
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 59/150 ---
+Training Loss (Scaled MSE): 0.071548
+Validation Loss (Scaled MSE): 0.065024
+Validation MAE (Unscaled): 0.161777
+Epoch duration: 111.47 seconds
+Validation loss improved by 0.001169 (0.066193 --> 0.065024). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 60/150 ---
+Training Loss (Scaled MSE): 0.070564
+Validation Loss (Scaled MSE): 0.065278
+Validation MAE (Unscaled): 0.160971
+Epoch duration: 111.61 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.065024
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 61/150 ---
+Training Loss (Scaled MSE): 0.070482
+Validation Loss (Scaled MSE): 0.065444
+Validation MAE (Unscaled): 0.160254
+Epoch duration: 111.47 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.065024
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 62/150 ---
+Training Loss (Scaled MSE): 0.070829
+Validation Loss (Scaled MSE): 0.065266
+Validation MAE (Unscaled): 0.161313
+Epoch duration: 93.88 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.065024
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 63/150 ---
+Training Loss (Scaled MSE): 0.069874
+Validation Loss (Scaled MSE): 0.064430
+Validation MAE (Unscaled): 0.163375
+Epoch duration: 93.53 seconds
+Validation loss improved by 0.000594 (0.065024 --> 0.064430). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 64/150 ---
+Training Loss (Scaled MSE): 0.070444
+Validation Loss (Scaled MSE): 0.064674
+Validation MAE (Unscaled): 0.161334
+Epoch duration: 111.30 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.064430
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 65/150 ---
+Training Loss (Scaled MSE): 0.070230
+Validation Loss (Scaled MSE): 0.067544
+Validation MAE (Unscaled): 0.163130
+Epoch duration: 111.74 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.064430
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 66/150 ---
+Training Loss (Scaled MSE): 0.070739
+Validation Loss (Scaled MSE): 0.065045
+Validation MAE (Unscaled): 0.162863
+Epoch duration: 93.66 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.064430
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 67/150 ---
+Training Loss (Scaled MSE): 0.069406
+Validation Loss (Scaled MSE): 0.064261
+Validation MAE (Unscaled): 0.160414
+Epoch duration: 65.84 seconds
+Validation loss improved by 0.000169 (0.064430 --> 0.064261). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 68/150 ---
+Training Loss (Scaled MSE): 0.068612
+Validation Loss (Scaled MSE): 0.063872
+Validation MAE (Unscaled): 0.161512
+Epoch duration: 65.57 seconds
+Validation loss improved by 0.000390 (0.064261 --> 0.063872). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 69/150 ---
+Training Loss (Scaled MSE): 0.068123
+Validation Loss (Scaled MSE): 0.062764
+Validation MAE (Unscaled): 0.162598
+Epoch duration: 65.79 seconds
+Validation loss improved by 0.001108 (0.063872 --> 0.062764). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 70/150 ---
+Training Loss (Scaled MSE): 0.068370
+Validation Loss (Scaled MSE): 0.064812
+Validation MAE (Unscaled): 0.162465
+Epoch duration: 65.45 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.062764
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 71/150 ---
+Training Loss (Scaled MSE): 0.067319
+Validation Loss (Scaled MSE): 0.062209
+Validation MAE (Unscaled): 0.160568
+Epoch duration: 65.50 seconds
+Validation loss improved by 0.000555 (0.062764 --> 0.062209). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 72/150 ---
+Training Loss (Scaled MSE): 0.069200
+Validation Loss (Scaled MSE): 0.063812
+Validation MAE (Unscaled): 0.161703
+Epoch duration: 65.59 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.062209
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 73/150 ---
+Training Loss (Scaled MSE): 0.066467
+Validation Loss (Scaled MSE): 0.062042
+Validation MAE (Unscaled): 0.162422
+Epoch duration: 65.69 seconds
+Validation loss improved by 0.000167 (0.062209 --> 0.062042). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 74/150 ---
+Training Loss (Scaled MSE): 0.068535
+Validation Loss (Scaled MSE): 0.064788
+Validation MAE (Unscaled): 0.160537
+Epoch duration: 65.32 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.062042
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 75/150 ---
+Training Loss (Scaled MSE): 0.065929
+Validation Loss (Scaled MSE): 0.061780
+Validation MAE (Unscaled): 0.161973
+Epoch duration: 65.62 seconds
+Validation loss improved by 0.000261 (0.062042 --> 0.061780). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 76/150 ---
+Training Loss (Scaled MSE): 0.065628
+Validation Loss (Scaled MSE): 0.061415
+Validation MAE (Unscaled): 0.161491
+Epoch duration: 65.59 seconds
+Validation loss improved by 0.000365 (0.061780 --> 0.061415). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 77/150 ---
+Training Loss (Scaled MSE): 0.066131
+Validation Loss (Scaled MSE): 0.059792
+Validation MAE (Unscaled): 0.160964
+Epoch duration: 65.63 seconds
+Validation loss improved by 0.001624 (0.061415 --> 0.059792). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 78/150 ---
+Training Loss (Scaled MSE): 0.065868
+Validation Loss (Scaled MSE): 0.061386
+Validation MAE (Unscaled): 0.159126
+Epoch duration: 65.87 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.059792
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 79/150 ---
+Training Loss (Scaled MSE): 0.064887
+Validation Loss (Scaled MSE): 0.060662
+Validation MAE (Unscaled): 0.161556
+Epoch duration: 65.59 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.059792
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 80/150 ---
+Training Loss (Scaled MSE): 0.065311
+Validation Loss (Scaled MSE): 0.061615
+Validation MAE (Unscaled): 0.161748
+Epoch duration: 65.55 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.059792
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 81/150 ---
+Training Loss (Scaled MSE): 0.064851
+Validation Loss (Scaled MSE): 0.061601
+Validation MAE (Unscaled): 0.161534
+Epoch duration: 65.86 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.059792
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 82/150 ---
+Training Loss (Scaled MSE): 0.064287
+Validation Loss (Scaled MSE): 0.061990
+Validation MAE (Unscaled): 0.160753
+Epoch duration: 65.94 seconds
+Validation loss did not improve for 5 epoch(s). Best was 0.059792
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 83/150 ---
+Training Loss (Scaled MSE): 0.065882
+Validation Loss (Scaled MSE): 0.061621
+Validation MAE (Unscaled): 0.162789
+Epoch duration: 65.64 seconds
+Validation loss did not improve for 6 epoch(s). Best was 0.059792
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 84/150 ---
+Training Loss (Scaled MSE): 0.065488
+Validation Loss (Scaled MSE): 0.060019
+Validation MAE (Unscaled): 0.161603
+Epoch duration: 65.44 seconds
+Validation loss did not improve for 7 epoch(s). Best was 0.059792
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 85/150 ---
+Training Loss (Scaled MSE): 0.064811
+Validation Loss (Scaled MSE): 0.060289
+Validation MAE (Unscaled): 0.162102
+Epoch duration: 65.78 seconds
+Validation loss did not improve for 8 epoch(s). Best was 0.059792
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 86/150 ---
+Training Loss (Scaled MSE): 0.063536
+Validation Loss (Scaled MSE): 0.059880
+Validation MAE (Unscaled): 0.162696
+Epoch duration: 65.66 seconds
+Validation loss did not improve for 9 epoch(s). Best was 0.059792
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 87/150 ---
+Training Loss (Scaled MSE): 0.063411
+Validation Loss (Scaled MSE): 0.062854
+Validation MAE (Unscaled): 0.161370
+Epoch duration: 65.48 seconds
+Validation loss did not improve for 10 epoch(s). Best was 0.059792
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 88/150 ---
+Training Loss (Scaled MSE): 0.063106
+Validation Loss (Scaled MSE): 0.059644
+Validation MAE (Unscaled): 0.161929
+Epoch duration: 65.83 seconds
+Validation loss improved by 0.000148 (0.059792 --> 0.059644). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 89/150 ---
+Training Loss (Scaled MSE): 0.064019
+Validation Loss (Scaled MSE): 0.059474
+Validation MAE (Unscaled): 0.160829
+Epoch duration: 65.36 seconds
+Validation loss improved by 0.000170 (0.059644 --> 0.059474). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 90/150 ---
+Training Loss (Scaled MSE): 0.062572
+Validation Loss (Scaled MSE): 0.061270
+Validation MAE (Unscaled): 0.160138
+Epoch duration: 65.40 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.059474
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 91/150 ---
+Training Loss (Scaled MSE): 0.066629
+Validation Loss (Scaled MSE): 0.063998
+Validation MAE (Unscaled): 0.163640
+Epoch duration: 65.87 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.059474
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 92/150 ---
+Training Loss (Scaled MSE): 0.062646
+Validation Loss (Scaled MSE): 0.060327
+Validation MAE (Unscaled): 0.160765
+Epoch duration: 65.71 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.059474
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 93/150 ---
+Training Loss (Scaled MSE): 0.063501
+Validation Loss (Scaled MSE): 0.060909
+Validation MAE (Unscaled): 0.161317
+Epoch duration: 65.68 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.059474
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 94/150 ---
+Training Loss (Scaled MSE): 0.063308
+Validation Loss (Scaled MSE): 0.059087
+Validation MAE (Unscaled): 0.163817
+Epoch duration: 65.48 seconds
+Validation loss improved by 0.000386 (0.059474 --> 0.059087). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 95/150 ---
+Training Loss (Scaled MSE): 0.061595
+Validation Loss (Scaled MSE): 0.058695
+Validation MAE (Unscaled): 0.163417
+Epoch duration: 65.58 seconds
+Validation loss improved by 0.000392 (0.059087 --> 0.058695). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 96/150 ---
+Training Loss (Scaled MSE): 0.062893
+Validation Loss (Scaled MSE): 0.059941
+Validation MAE (Unscaled): 0.161067
+Epoch duration: 65.62 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.058695
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 97/150 ---
+Training Loss (Scaled MSE): 0.062062
+Validation Loss (Scaled MSE): 0.058255
+Validation MAE (Unscaled): 0.161846
+Epoch duration: 65.39 seconds
+Validation loss improved by 0.000440 (0.058695 --> 0.058255). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 98/150 ---
+Training Loss (Scaled MSE): 0.061156
+Validation Loss (Scaled MSE): 0.057609
+Validation MAE (Unscaled): 0.162801
+Epoch duration: 65.42 seconds
+Validation loss improved by 0.000647 (0.058255 --> 0.057609). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 99/150 ---
+Training Loss (Scaled MSE): 0.060443
+Validation Loss (Scaled MSE): 0.058048
+Validation MAE (Unscaled): 0.160941
+Epoch duration: 65.62 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.057609
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 100/150 ---
+Training Loss (Scaled MSE): 0.060569
+Validation Loss (Scaled MSE): 0.064583
+Validation MAE (Unscaled): 0.161384
+Epoch duration: 65.69 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.057609
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 101/150 ---
+Training Loss (Scaled MSE): 0.060732
+Validation Loss (Scaled MSE): 0.059608
+Validation MAE (Unscaled): 0.161657
+Epoch duration: 65.57 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.057609
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 102/150 ---
+Training Loss (Scaled MSE): 0.059786
+Validation Loss (Scaled MSE): 0.060554
+Validation MAE (Unscaled): 0.161663
+Epoch duration: 65.99 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.057609
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 103/150 ---
+Training Loss (Scaled MSE): 0.060214
+Validation Loss (Scaled MSE): 0.063004
+Validation MAE (Unscaled): 0.162257
+Epoch duration: 65.44 seconds
+Validation loss did not improve for 5 epoch(s). Best was 0.057609
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 104/150 ---
+Training Loss (Scaled MSE): 0.060200
+Validation Loss (Scaled MSE): 0.058132
+Validation MAE (Unscaled): 0.162970
+Epoch duration: 65.75 seconds
+Validation loss did not improve for 6 epoch(s). Best was 0.057609
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 105/150 ---
+Training Loss (Scaled MSE): 0.060681
+Validation Loss (Scaled MSE): 0.061149
+Validation MAE (Unscaled): 0.161405
+Epoch duration: 65.56 seconds
+Validation loss did not improve for 7 epoch(s). Best was 0.057609
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 106/150 ---
+Training Loss (Scaled MSE): 0.060115
+Validation Loss (Scaled MSE): 0.059707
+Validation MAE (Unscaled): 0.160984
+Epoch duration: 65.44 seconds
+Validation loss did not improve for 8 epoch(s). Best was 0.057609
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 107/150 ---
+Training Loss (Scaled MSE): 0.057919
+Validation Loss (Scaled MSE): 0.057597
+Validation MAE (Unscaled): 0.161165
+Epoch duration: 65.57 seconds
+Validation loss improved by 0.000011 (0.057609 --> 0.057597). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 108/150 ---
+Training Loss (Scaled MSE): 0.057841
+Validation Loss (Scaled MSE): 0.058733
+Validation MAE (Unscaled): 0.161808
+Epoch duration: 65.29 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.057597
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 109/150 ---
+Training Loss (Scaled MSE): 0.058285
+Validation Loss (Scaled MSE): 0.061551
+Validation MAE (Unscaled): 0.160951
+Epoch duration: 65.74 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.057597
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 110/150 ---
+Training Loss (Scaled MSE): 0.058468
+Validation Loss (Scaled MSE): 0.056307
+Validation MAE (Unscaled): 0.160785
+Epoch duration: 65.73 seconds
+Validation loss improved by 0.001290 (0.057597 --> 0.056307). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 111/150 ---
+Training Loss (Scaled MSE): 0.058697
+Validation Loss (Scaled MSE): 0.056927
+Validation MAE (Unscaled): 0.161512
+Epoch duration: 65.38 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.056307
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 112/150 ---
+Training Loss (Scaled MSE): 0.057614
+Validation Loss (Scaled MSE): 0.057291
+Validation MAE (Unscaled): 0.160048
+Epoch duration: 65.64 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.056307
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 113/150 ---
+Training Loss (Scaled MSE): 0.057076
+Validation Loss (Scaled MSE): 0.057185
+Validation MAE (Unscaled): 0.160830
+Epoch duration: 65.60 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.056307
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 114/150 ---
+Training Loss (Scaled MSE): 0.059666
+Validation Loss (Scaled MSE): 0.056412
+Validation MAE (Unscaled): 0.160825
+Epoch duration: 65.73 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.056307
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 115/150 ---
+Training Loss (Scaled MSE): 0.057790
+Validation Loss (Scaled MSE): 0.061552
+Validation MAE (Unscaled): 0.159662
+Epoch duration: 65.45 seconds
+Validation loss did not improve for 5 epoch(s). Best was 0.056307
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 116/150 ---
+Training Loss (Scaled MSE): 0.057554
+Validation Loss (Scaled MSE): 0.059446
+Validation MAE (Unscaled): 0.163576
+Epoch duration: 65.65 seconds
+Validation loss did not improve for 6 epoch(s). Best was 0.056307
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 117/150 ---
+Training Loss (Scaled MSE): 0.056320
+Validation Loss (Scaled MSE): 0.057091
+Validation MAE (Unscaled): 0.161240
+Epoch duration: 65.74 seconds
+Validation loss did not improve for 7 epoch(s). Best was 0.056307
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 118/150 ---
+Training Loss (Scaled MSE): 0.055883
+Validation Loss (Scaled MSE): 0.056913
+Validation MAE (Unscaled): 0.160891
+Epoch duration: 65.55 seconds
+Validation loss did not improve for 8 epoch(s). Best was 0.056307
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 119/150 ---
+Training Loss (Scaled MSE): 0.056495
+Validation Loss (Scaled MSE): 0.057416
+Validation MAE (Unscaled): 0.163090
+Epoch duration: 65.80 seconds
+Validation loss did not improve for 9 epoch(s). Best was 0.056307
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 120/150 ---
+Training Loss (Scaled MSE): 0.058874
+Validation Loss (Scaled MSE): 0.055830
+Validation MAE (Unscaled): 0.163493
+Epoch duration: 65.48 seconds
+Validation loss improved by 0.000477 (0.056307 --> 0.055830). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 121/150 ---
+Training Loss (Scaled MSE): 0.055808
+Validation Loss (Scaled MSE): 0.061038
+Validation MAE (Unscaled): 0.161279
+Epoch duration: 65.46 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.055830
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 122/150 ---
+Training Loss (Scaled MSE): 0.055549
+Validation Loss (Scaled MSE): 0.054804
+Validation MAE (Unscaled): 0.161545
+Epoch duration: 65.91 seconds
+Validation loss improved by 0.001027 (0.055830 --> 0.054804). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 123/150 ---
+Training Loss (Scaled MSE): 0.054667
+Validation Loss (Scaled MSE): 0.056634
+Validation MAE (Unscaled): 0.159822
+Epoch duration: 65.38 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.054804
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 124/150 ---
+Training Loss (Scaled MSE): 0.054134
+Validation Loss (Scaled MSE): 0.056983
+Validation MAE (Unscaled): 0.162365
+Epoch duration: 65.58 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.054804
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 125/150 ---
+Training Loss (Scaled MSE): 0.054867
+Validation Loss (Scaled MSE): 0.055816
+Validation MAE (Unscaled): 0.160671
+Epoch duration: 65.45 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.054804
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 126/150 ---
+Training Loss (Scaled MSE): 0.056331
+Validation Loss (Scaled MSE): 0.056900
+Validation MAE (Unscaled): 0.160620
+Epoch duration: 65.39 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.054804
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 127/150 ---
+Training Loss (Scaled MSE): 0.053586
+Validation Loss (Scaled MSE): 0.059352
+Validation MAE (Unscaled): 0.162758
+Epoch duration: 65.46 seconds
+Validation loss did not improve for 5 epoch(s). Best was 0.054804
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 128/150 ---
+Training Loss (Scaled MSE): 0.054317
+Validation Loss (Scaled MSE): 0.058858
+Validation MAE (Unscaled): 0.162520
+Epoch duration: 65.53 seconds
+Validation loss did not improve for 6 epoch(s). Best was 0.054804
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 129/150 ---
+Training Loss (Scaled MSE): 0.056487
+Validation Loss (Scaled MSE): 0.058100
+Validation MAE (Unscaled): 0.161227
+Epoch duration: 65.38 seconds
+Validation loss did not improve for 7 epoch(s). Best was 0.054804
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 130/150 ---
+Training Loss (Scaled MSE): 0.053631
+Validation Loss (Scaled MSE): 0.055274
+Validation MAE (Unscaled): 0.161190
+Epoch duration: 65.69 seconds
+Validation loss did not improve for 8 epoch(s). Best was 0.054804
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 131/150 ---
+Training Loss (Scaled MSE): 0.053427
+Validation Loss (Scaled MSE): 0.061586
+Validation MAE (Unscaled): 0.162007
+Epoch duration: 65.39 seconds
+Validation loss did not improve for 9 epoch(s). Best was 0.054804
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 132/150 ---
+Training Loss (Scaled MSE): 0.055546
+Validation Loss (Scaled MSE): 0.054712
+Validation MAE (Unscaled): 0.160520
+Epoch duration: 65.59 seconds
+Validation loss improved by 0.000092 (0.054804 --> 0.054712). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 133/150 ---
+Training Loss (Scaled MSE): 0.053948
+Validation Loss (Scaled MSE): 0.055732
+Validation MAE (Unscaled): 0.162795
+Epoch duration: 66.07 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.054712
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 134/150 ---
+Training Loss (Scaled MSE): 0.052940
+Validation Loss (Scaled MSE): 0.055309
+Validation MAE (Unscaled): 0.160691
+Epoch duration: 77.51 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.054712
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 135/150 ---
+Training Loss (Scaled MSE): 0.053724
+Validation Loss (Scaled MSE): 0.054273
+Validation MAE (Unscaled): 0.162452
+Epoch duration: 67.05 seconds
+Validation loss improved by 0.000439 (0.054712 --> 0.054273). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 136/150 ---
+Training Loss (Scaled MSE): 0.051866
+Validation Loss (Scaled MSE): 0.055535
+Validation MAE (Unscaled): 0.162332
+Epoch duration: 67.00 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.054273
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 137/150 ---
+Training Loss (Scaled MSE): 0.054240
+Validation Loss (Scaled MSE): 0.058166
+Validation MAE (Unscaled): 0.163071
+Epoch duration: 65.62 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.054273
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 138/150 ---
+Training Loss (Scaled MSE): 0.054224
+Validation Loss (Scaled MSE): 0.066816
+Validation MAE (Unscaled): 0.163265
+Epoch duration: 65.54 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.054273
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 139/150 ---
+Training Loss (Scaled MSE): 0.055840
+Validation Loss (Scaled MSE): 0.056995
+Validation MAE (Unscaled): 0.161380
+Epoch duration: 65.41 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.054273
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 140/150 ---
+Training Loss (Scaled MSE): 0.050421
+Validation Loss (Scaled MSE): 0.057248
+Validation MAE (Unscaled): 0.160672
+Epoch duration: 65.48 seconds
+Validation loss did not improve for 5 epoch(s). Best was 0.054273
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 141/150 ---
+Training Loss (Scaled MSE): 0.050050
+Validation Loss (Scaled MSE): 0.053239
+Validation MAE (Unscaled): 0.162694
+Epoch duration: 65.55 seconds
+Validation loss improved by 0.001033 (0.054273 --> 0.053239). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 142/150 ---
+Training Loss (Scaled MSE): 0.051475
+Validation Loss (Scaled MSE): 0.053474
+Validation MAE (Unscaled): 0.160945
+Epoch duration: 65.72 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.053239
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 143/150 ---
+Training Loss (Scaled MSE): 0.050153
+Validation Loss (Scaled MSE): 0.054694
+Validation MAE (Unscaled): 0.161848
+Epoch duration: 65.51 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.053239
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 144/150 ---
+Training Loss (Scaled MSE): 0.050194
+Validation Loss (Scaled MSE): 0.055540
+Validation MAE (Unscaled): 0.161921
+Epoch duration: 65.64 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.053239
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 145/150 ---
+Training Loss (Scaled MSE): 0.050403
+Validation Loss (Scaled MSE): 0.054852
+Validation MAE (Unscaled): 0.161086
+Epoch duration: 65.61 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.053239
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 146/150 ---
+Training Loss (Scaled MSE): 0.050137
+Validation Loss (Scaled MSE): 0.056143
+Validation MAE (Unscaled): 0.159097
+Epoch duration: 65.68 seconds
+Validation loss did not improve for 5 epoch(s). Best was 0.053239
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 147/150 ---
+Training Loss (Scaled MSE): 0.051026
+Validation Loss (Scaled MSE): 0.057994
+Validation MAE (Unscaled): 0.162047
+Epoch duration: 65.77 seconds
+Validation loss did not improve for 6 epoch(s). Best was 0.053239
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 148/150 ---
+Training Loss (Scaled MSE): 0.050047
+Validation Loss (Scaled MSE): 0.055589
+Validation MAE (Unscaled): 0.161414
+Epoch duration: 65.54 seconds
+Validation loss did not improve for 7 epoch(s). Best was 0.053239
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 149/150 ---
+Training Loss (Scaled MSE): 0.050495
+Validation Loss (Scaled MSE): 0.055306
+Validation MAE (Unscaled): 0.160743
+Epoch duration: 65.49 seconds
+Validation loss did not improve for 8 epoch(s). Best was 0.053239
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 150/150 ---
+Training Loss (Scaled MSE): 0.050224
+Validation Loss (Scaled MSE): 0.055951
+Validation MAE (Unscaled): 0.160372
+Epoch duration: 65.89 seconds
+Validation loss did not improve for 9 epoch(s). Best was 0.053239
+Saving checkpoint to ode_inverse_output_lstm/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 151/5000 ---
+Training Loss (Scaled MSE): 0.052293
+Validation Loss (Scaled MSE): 0.054153
+Validation MAE (Unscaled): 0.161428
+Epoch duration: 93.46 seconds
+Validation loss improved by 0.001798 (0.055951 --> 0.054153). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm2/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 152/5000 ---
+Training Loss (Scaled MSE): 0.048540
+Validation Loss (Scaled MSE): 0.055282
+Validation MAE (Unscaled): 0.161497
+Epoch duration: 99.24 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.054153
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 153/5000 ---
+Training Loss (Scaled MSE): 0.050473
+Validation Loss (Scaled MSE): 0.054530
+Validation MAE (Unscaled): 0.162002
+Epoch duration: 115.51 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.054153
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 154/5000 ---
+Training Loss (Scaled MSE): 0.050017
+Validation Loss (Scaled MSE): 0.056878
+Validation MAE (Unscaled): 0.160614
+Epoch duration: 115.63 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.054153
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 155/5000 ---
+Training Loss (Scaled MSE): 0.051953
+Validation Loss (Scaled MSE): 0.055222
+Validation MAE (Unscaled): 0.162456
+Epoch duration: 115.62 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.054153
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 156/5000 ---
+Training Loss (Scaled MSE): 0.050573
+Validation Loss (Scaled MSE): 0.057585
+Validation MAE (Unscaled): 0.161310
+Epoch duration: 115.58 seconds
+Validation loss did not improve for 5 epoch(s). Best was 0.054153
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 157/5000 ---
+Training Loss (Scaled MSE): 0.048998
+Validation Loss (Scaled MSE): 0.053754
+Validation MAE (Unscaled): 0.162268
+Epoch duration: 108.05 seconds
+Validation loss improved by 0.000399 (0.054153 --> 0.053754). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm2/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 158/5000 ---
+Training Loss (Scaled MSE): 0.049087
+Validation Loss (Scaled MSE): 0.054624
+Validation MAE (Unscaled): 0.162094
+Epoch duration: 91.36 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.053754
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 159/5000 ---
+Training Loss (Scaled MSE): 0.049962
+Validation Loss (Scaled MSE): 0.054119
+Validation MAE (Unscaled): 0.159913
+Epoch duration: 115.59 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.053754
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 160/5000 ---
+Training Loss (Scaled MSE): 0.047755
+Validation Loss (Scaled MSE): 0.053064
+Validation MAE (Unscaled): 0.161781
+Epoch duration: 116.18 seconds
+Validation loss improved by 0.000690 (0.053754 --> 0.053064). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm2/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 161/5000 ---
+Training Loss (Scaled MSE): 0.049618
+Validation Loss (Scaled MSE): 0.054240
+Validation MAE (Unscaled): 0.161568
+Epoch duration: 115.96 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 162/5000 ---
+Training Loss (Scaled MSE): 0.047100
+Validation Loss (Scaled MSE): 0.054738
+Validation MAE (Unscaled): 0.161456
+Epoch duration: 116.34 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 163/5000 ---
+Training Loss (Scaled MSE): 0.047877
+Validation Loss (Scaled MSE): 0.054870
+Validation MAE (Unscaled): 0.162337
+Epoch duration: 114.74 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 164/5000 ---
+Training Loss (Scaled MSE): 0.047173
+Validation Loss (Scaled MSE): 0.054850
+Validation MAE (Unscaled): 0.162566
+Epoch duration: 84.58 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 165/5000 ---
+Training Loss (Scaled MSE): 0.046174
+Validation Loss (Scaled MSE): 0.053619
+Validation MAE (Unscaled): 0.162296
+Epoch duration: 115.34 seconds
+Validation loss did not improve for 5 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 166/5000 ---
+Training Loss (Scaled MSE): 0.046200
+Validation Loss (Scaled MSE): 0.054218
+Validation MAE (Unscaled): 0.162611
+Epoch duration: 115.83 seconds
+Validation loss did not improve for 6 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 167/5000 ---
+Training Loss (Scaled MSE): 0.047059
+Validation Loss (Scaled MSE): 0.057957
+Validation MAE (Unscaled): 0.162160
+Epoch duration: 116.34 seconds
+Validation loss did not improve for 7 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 168/5000 ---
+Training Loss (Scaled MSE): 0.048626
+Validation Loss (Scaled MSE): 0.054807
+Validation MAE (Unscaled): 0.162906
+Epoch duration: 116.30 seconds
+Validation loss did not improve for 8 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 169/5000 ---
+Training Loss (Scaled MSE): 0.045825
+Validation Loss (Scaled MSE): 0.054928
+Validation MAE (Unscaled): 0.163581
+Epoch duration: 116.64 seconds
+Validation loss did not improve for 9 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 170/5000 ---
+Training Loss (Scaled MSE): 0.046490
+Validation Loss (Scaled MSE): 0.054450
+Validation MAE (Unscaled): 0.160915
+Epoch duration: 93.58 seconds
+Validation loss did not improve for 10 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 171/5000 ---
+Training Loss (Scaled MSE): 0.049385
+Validation Loss (Scaled MSE): 0.053405
+Validation MAE (Unscaled): 0.161922
+Epoch duration: 104.54 seconds
+Validation loss did not improve for 11 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 172/5000 ---
+Training Loss (Scaled MSE): 0.045517
+Validation Loss (Scaled MSE): 0.056052
+Validation MAE (Unscaled): 0.160380
+Epoch duration: 116.59 seconds
+Validation loss did not improve for 12 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 173/5000 ---
+Training Loss (Scaled MSE): 0.046198
+Validation Loss (Scaled MSE): 0.053947
+Validation MAE (Unscaled): 0.161655
+Epoch duration: 116.59 seconds
+Validation loss did not improve for 13 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 174/5000 ---
+Training Loss (Scaled MSE): 0.045843
+Validation Loss (Scaled MSE): 0.053451
+Validation MAE (Unscaled): 0.162767
+Epoch duration: 116.67 seconds
+Validation loss did not improve for 14 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 175/5000 ---
+Training Loss (Scaled MSE): 0.044699
+Validation Loss (Scaled MSE): 0.056602
+Validation MAE (Unscaled): 0.160904
+Epoch duration: 116.80 seconds
+Validation loss did not improve for 15 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 176/5000 ---
+Training Loss (Scaled MSE): 0.047997
+Validation Loss (Scaled MSE): 0.055179
+Validation MAE (Unscaled): 0.162663
+Epoch duration: 103.06 seconds
+Validation loss did not improve for 16 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 177/5000 ---
+Training Loss (Scaled MSE): 0.045155
+Validation Loss (Scaled MSE): 0.055702
+Validation MAE (Unscaled): 0.161501
+Epoch duration: 97.40 seconds
+Validation loss did not improve for 17 epoch(s). Best was 0.053064
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 178/5000 ---
+Training Loss (Scaled MSE): 0.046102
+Validation Loss (Scaled MSE): 0.052962
+Validation MAE (Unscaled): 0.161240
+Epoch duration: 116.82 seconds
+Validation loss improved by 0.000103 (0.053064 --> 0.052962). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm2/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 179/5000 ---
+Training Loss (Scaled MSE): 0.044340
+Validation Loss (Scaled MSE): 0.052682
+Validation MAE (Unscaled): 0.160506
+Epoch duration: 116.95 seconds
+Validation loss improved by 0.000280 (0.052962 --> 0.052682). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm2/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 180/5000 ---
+Training Loss (Scaled MSE): 0.044756
+Validation Loss (Scaled MSE): 0.052280
+Validation MAE (Unscaled): 0.161535
+Epoch duration: 116.73 seconds
+Validation loss improved by 0.000401 (0.052682 --> 0.052280). Saving best model...
+Saving checkpoint to ode_inverse_output_lstm2/best_model.pth...
+Checkpoint saved.
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 181/5000 ---
+Training Loss (Scaled MSE): 0.045116
+Validation Loss (Scaled MSE): 0.053668
+Validation MAE (Unscaled): 0.160570
+Epoch duration: 116.78 seconds
+Validation loss did not improve for 1 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 182/5000 ---
+Training Loss (Scaled MSE): 0.043986
+Validation Loss (Scaled MSE): 0.055774
+Validation MAE (Unscaled): 0.160821
+Epoch duration: 108.68 seconds
+Validation loss did not improve for 2 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 183/5000 ---
+Training Loss (Scaled MSE): 0.045603
+Validation Loss (Scaled MSE): 0.062664
+Validation MAE (Unscaled): 0.160224
+Epoch duration: 91.80 seconds
+Validation loss did not improve for 3 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 184/5000 ---
+Training Loss (Scaled MSE): 0.043878
+Validation Loss (Scaled MSE): 0.052911
+Validation MAE (Unscaled): 0.160988
+Epoch duration: 116.87 seconds
+Validation loss did not improve for 4 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 185/5000 ---
+Training Loss (Scaled MSE): 0.042395
+Validation Loss (Scaled MSE): 0.053778
+Validation MAE (Unscaled): 0.159174
+Epoch duration: 117.22 seconds
+Validation loss did not improve for 5 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 186/5000 ---
+Training Loss (Scaled MSE): 0.043021
+Validation Loss (Scaled MSE): 0.056341
+Validation MAE (Unscaled): 0.161629
+Epoch duration: 116.98 seconds
+Validation loss did not improve for 6 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 187/5000 ---
+Training Loss (Scaled MSE): 0.043975
+Validation Loss (Scaled MSE): 0.058753
+Validation MAE (Unscaled): 0.162095
+Epoch duration: 117.10 seconds
+Validation loss did not improve for 7 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 188/5000 ---
+Training Loss (Scaled MSE): 0.048316
+Validation Loss (Scaled MSE): 0.056572
+Validation MAE (Unscaled): 0.162316
+Epoch duration: 116.39 seconds
+Validation loss did not improve for 8 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 189/5000 ---
+Training Loss (Scaled MSE): 0.043837
+Validation Loss (Scaled MSE): 0.053951
+Validation MAE (Unscaled): 0.161767
+Epoch duration: 85.19 seconds
+Validation loss did not improve for 9 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 190/5000 ---
+Training Loss (Scaled MSE): 0.043156
+Validation Loss (Scaled MSE): 0.054433
+Validation MAE (Unscaled): 0.161917
+Epoch duration: 116.84 seconds
+Validation loss did not improve for 10 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 191/5000 ---
+Training Loss (Scaled MSE): 0.042816
+Validation Loss (Scaled MSE): 0.054700
+Validation MAE (Unscaled): 0.162549
+Epoch duration: 117.04 seconds
+Validation loss did not improve for 11 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 192/5000 ---
+Training Loss (Scaled MSE): 0.043802
+Validation Loss (Scaled MSE): 0.057207
+Validation MAE (Unscaled): 0.161885
+Epoch duration: 117.11 seconds
+Validation loss did not improve for 12 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 193/5000 ---
+Training Loss (Scaled MSE): 0.044257
+Validation Loss (Scaled MSE): 0.055343
+Validation MAE (Unscaled): 0.160641
+Epoch duration: 117.10 seconds
+Validation loss did not improve for 13 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 194/5000 ---
+Training Loss (Scaled MSE): 0.041961
+Validation Loss (Scaled MSE): 0.055637
+Validation MAE (Unscaled): 0.160570
+Epoch duration: 117.22 seconds
+Validation loss did not improve for 14 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 195/5000 ---
+Training Loss (Scaled MSE): 0.041858
+Validation Loss (Scaled MSE): 0.053507
+Validation MAE (Unscaled): 0.162352
+Epoch duration: 91.95 seconds
+Validation loss did not improve for 15 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 196/5000 ---
+Training Loss (Scaled MSE): 0.043288
+Validation Loss (Scaled MSE): 0.055754
+Validation MAE (Unscaled): 0.161835
+Epoch duration: 109.83 seconds
+Validation loss did not improve for 16 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 197/5000 ---
+Training Loss (Scaled MSE): 0.041767
+Validation Loss (Scaled MSE): 0.053500
+Validation MAE (Unscaled): 0.160566
+Epoch duration: 117.35 seconds
+Validation loss did not improve for 17 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 198/5000 ---
+Training Loss (Scaled MSE): 0.040927
+Validation Loss (Scaled MSE): 0.054286
+Validation MAE (Unscaled): 0.162834
+Epoch duration: 117.25 seconds
+Validation loss did not improve for 18 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 199/5000 ---
+Training Loss (Scaled MSE): 0.040952
+Validation Loss (Scaled MSE): 0.053510
+Validation MAE (Unscaled): 0.162958
+Epoch duration: 117.07 seconds
+Validation loss did not improve for 19 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+--- Epoch 200/5000 ---
+Training Loss (Scaled MSE): 0.042105
+Validation Loss (Scaled MSE): 0.053796
+Validation MAE (Unscaled): 0.162152
+Epoch duration: 117.35 seconds
+Validation loss did not improve for 20 epoch(s). Best was 0.052280
+Saving checkpoint to ode_inverse_output_lstm2/last_model.pth...
+Checkpoint saved.
+
+Early stopping triggered after 20 epochs without improvement on validation loss.
+
+--- Training Finished ---
+Total training duration: 5780.50 seconds (96.34 minutes)
+Best validation loss (Scaled MSE) achieved: 0.052280
+
+Loading best model for final evaluation on validation set...
+Loading checkpoint from ode_inverse_output_lstm2/best_model.pth to cuda...
+Checkpoint loaded. Resuming from Epoch 180. Previous best loss: 0.052280
+Saving results to ode_inverse_output_lstm2/validation_results.csv...
+Results saved.
+
+Plotting training curves...
+Traceback (most recent call last):
+  File "/home/csegpuserver/mmEL/lstm.py", line 752, in <module>
+    main(args)
+  File "/home/csegpuserver/mmEL/lstm.py", line 711, in main
+    plot_curves(history, paths['plot'])
+  File "/home/csegpuserver/mmEL/lstm.py", line 472, in plot_curves
+    plt.subplot(1, num_plots, plot_idx); plt.title('Validation Trajectory MSE')
+  File "/home/csegpuserver/mmEL/myenv/lib/python3.10/site-packages/matplotlib/pyplot.py", line 1552, in subplot
+    key = SubplotSpec._from_subplot_args(fig, args)
+  File "/home/csegpuserver/mmEL/myenv/lib/python3.10/site-packages/matplotlib/gridspec.py", line 589, in _from_subplot_args
+    raise ValueError(
+ValueError: num must be an integer with 1 <= num <= 2, not 3
